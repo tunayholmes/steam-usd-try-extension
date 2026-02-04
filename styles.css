@@ -1,0 +1,32 @@
+.steam-tl-wrap {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 7px;
+  white-space: nowrap;
+}
+
+/* TL normalde vurgulu */
+.steam-tl-try {
+  font-weight: 800;
+  color: #b6ffb6;
+}
+
+/* USD */
+.steam-tl-usd {
+  opacity: 0.6;
+  font-size: 0.9em;
+}
+
+/* USD gizlenince TL: Steam fiyatı gibi */
+.steam-tl-try--native {
+  color: inherit !important;
+  font-weight: inherit !important;
+  font-size: inherit !important;
+  letter-spacing: inherit !important;
+  text-shadow: none !important;
+}
+
+/* USD gizliyken gap olmasın */
+.steam-tl-wrap:has(.steam-tl-try--native) {
+  gap: 0px;
+}

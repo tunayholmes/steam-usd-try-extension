@@ -1,0 +1,29 @@
+{
+    "manifest_version": 3,
+    "name": "Steam USD → TL",
+    "version": "1.0.0",
+    "description": "Steam USD fiyatlarını TL'ye çevirir. Kur otomatik/manüel, USD gizleme, yuvarlama seçenekleri.",
+    "permissions": ["storage"],
+    "host_permissions": [
+      "https://store.steampowered.com/*",
+      "https://api.exchangerate.host/*",
+      "https://open.er-api.com/*"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_title": "Steam USD → TL",
+      "default_popup": "popup.html",
+      "default_icon": "icon.png"
+    },
+    "content_scripts": [
+      {
+        "matches": ["https://store.steampowered.com/*"],
+        "js": ["content.js"],
+        "css": ["styles.css"],
+        "run_at": "document_idle"
+      }
+    ]
+  }
+  
