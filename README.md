@@ -5,7 +5,6 @@ Steam mağazasında görünen USD fiyatlarını TRY’ye çeviren basit bir Chro
 ## Özellikler
 - Steam fiyatlarını USD → TRY çevirme
 - Otomatik kur veya manuel kur modu
-- Aç / kapat anahtarı
 - Dolar fiyatını gizleme modu
 - TL formatı: yuvarlama veya küsüratlı gösterim
 
