@@ -11,7 +11,7 @@ Steam mağazasında görünen USD fiyatlarını TRY’ye çeviren basit bir Chro
 
 ---
 
-## Ekran Görüntüleri (Şablon)
+## Ekran Görüntüleri
 
 | Steam sayfası (önce) | Steam sayfası (sonra) |
 |---|---|
