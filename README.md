@@ -23,19 +23,15 @@ Steam mağazasında görünen USD fiyatlarını TRY’ye çeviren basit bir Chro
 ---
 
 ## Kurulum (Chrome)
-1. Bu projeyi indir:
-   - `Code → Download ZIP`
-   veya
-   - `git clone` ile bilgisayarına çek
 
-2. Chrome'da şu sayfayı aç:
-   - `chrome://extensions`
+1. GitHub sayfasından **Releases** bölümüne gir ve en son sürümün `.zip` dosyasını indir.
+2. Zip dosyasını bilgisayarında bir klasöre **çıkart**.
+3. Chrome’da şu sayfayı aç:
+`chrome://extensions/`
+4. Sağ üstten **Geliştirici modu (Developer mode)** seçeneğini aç.
+5. Sol üstten **Paketlenmemiş öğe yükle (Load unpacked)** butonuna tıkla.
+6. Zip’ten çıkardığın klasörü seç (içinde `manifest.json` dosyası olmalı).
 
-3. Sağ üstten **Developer mode** (Geliştirici modu) aç.
-
-4. **Load unpacked** (Paketlenmemiş öğe yükle) butonuna bas.
-
-5. Proje klasörünü seç.
 
 ---
 
